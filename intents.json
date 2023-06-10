@@ -1,0 +1,500 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Admission",
+      "patterns": [
+        "How can I apply?",
+        "How to get into ?",
+        "Tell me about the admission procedure?",
+        "How to get admitted to a prestigious university?",
+        "Can you explain the application process ?",
+        "What steps should I take to apply ?",
+        "How to secure admission?",
+        "Tell me about the requirements for admission to the engineering department.",
+        "How to prepare for the admission?",
+        "Can you guide me through the application procedure?",
+        "What are the key factors considered during the admission evaluation?",
+        "How can I apply for the program?",
+        "Tell me about the admission criteria.",
+        "What is the timeline for submitting an application?",
+        "How to navigate the admission process?",
+        "Can you provide guidance on admision?",
+        "How can I apply ?",
+        "What are the steps involved in admission?"
+        ],
+        "responses": [ 
+         "Admissions to first-year B.Tech and MCA courses are based on State Entrance Examinations,while admissions to M.Tech aided courses rely on a rank list prepared by DTE,The State Government fills 85% of the seats and the remaining 15% are allocated by the management https://www.mace.ac.in/eligibility"
+        
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "which are the different clubs ",
+        "Tell me about the clubs?",
+        "How many clubs are there?",
+        "Are there any clubs ?",
+        "Which clubs should I sign up for?",
+        "Tell me about the sports clubs.",
+        "How many clubs are available for music enthusiasts?",
+        "Are there any academic clubs ?",
+        "Which clubs focus on community service ?",
+        "Can you provide information about the cultural clubs?",
+        "Tell me about the recreational clubs .",
+        "How can I join the entrepreneurship club ?",
+        "Are there any clubs specifically for literature and writing ?",
+        "Which clubs in mace are dedicated to environmental conservation?",
+        "Tell me about the technology-focused clubs .",
+        "How can I get involved in the debate club ?",
+        "Are there any clubs for photography enthusiasts ?",
+        "Which clubs in mace organize volunteering activities?",
+        "Tell me about the dance and performing arts clubs.",
+        "How can I join the leadership development clubs ?",
+        "Are there any clubs that promote social awareness and activism?",
+        "Which clubs should I consider if I'm interested in graphic design and visual arts?",
+        "Tell me about the clubs that organize competitions and hackathons.",
+        "How can I become a member of the robotics club ?",
+        "Are there any clubs focused on health and wellness ?"
+      ],
+      "responses": [
+        "Click [J:/python/chatbot-deployment/quiz/q.html] to find out the best club for you .There are many clubs to select from this include NSS,BPCL Kochi Refinery Encon Club,Sports & Games Association,MACE NetX Club,Horticulture Club,Quiz Club,NPTEL."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Are the faculties any good?",
+        "Tell me about the quality of the professors.",
+        "List the teachers .",
+        "How experienced are the faculties ?",
+        "What is the reputation of the professors ?",
+        "Are the faculties knowledgeable?",
+        "Can you provide information about the qualifications of the teachers ?",
+        "Are the professors supportive and helpful?",
+        "Tell me about the expertise of the faculties .",
+        "What teaching methods do the teachers ?",
+        "Do the faculties have industry experience?",
+        "Are there any notable professors?",
+        "How accessible are the professors ",
+        "Tell me about the research contributions of the faculties .",
+        "Do the professors engage students in interactive learning?",
+        "Are there any renowned experts in specific fields among the faculties ?",
+        "What kind of academic support do the teachers offer?",
+        "Tell me about the teaching credentials of the faculties .",
+        "Do the teachers encourage critical thinking and intellectual development?",
+        "Are there any awards or accolades received by the professors ?",
+        "What is the student-faculty ratio ?",
+        "Tell me about the feedback or ratings given by students about the teachers .",
+        "Do the professors provide mentorship and guidance to students?",
+        "Are there any visiting faculty members ?",
+        "Tell me about the teaching resources and facilities available for the professors .",
+        "Do the faculties stay updated with the latest developments in their respective fields?",
+        "Do the professors use innovative teaching techniques?"
+      ],
+      "responses": [
+        "Mace has almost 300 qualified faculty members who are very well endowed in their fields "
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "which are the courses offered ",
+        "list the courses offered",
+        "tell me about the courses ",
+        "which different courses available "
+      ],
+
+      "responses": [
+        "We offer a wide range of courses including arts, science, commerce, engineering, and more. Visit our website for a complete list of programs.", 
+        "Our college provides diverse programs such as MCA, Bachelor of Science and specialized courses like Engineering and Computer Science.", 
+        "We have various undergraduate and postgraduate programs designed to meet different academic interests and career goals."
+      ]
+    },
+    
+
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "what is the fee structure",
+        "What is the tuition fee structure for the courses?",
+        "Can you give me details about the cost of education at your institution?",
+        "How are the fees structured for different programs?",
+        "Tell me about the financial requirements for studying .",
+        "What are the fees for undergraduate courses?",
+        "Can you provide information about the tuition fees for graduate programs?",
+        "How much does it cost to pursue a professional degree?",
+        "Tell me about the fee breakdown for international students.",
+        "What additional expenses should I consider apart from tuition fees?",
+        "Can you give me an estimate of the total cost of studying at your institution, including accommodation and living expenses?",
+        "What are the payment options for the tuition fees?",
+        "Tell me about any scholarships or financial aid opportunities available for students.",
+        "What is the fee refund policy ?",
+        "Can you provide information about any installment plans or payment schedules for the fees?",
+        "How do the fees vary for in-state and out-of-state students?",
+        "Tell me about any fee waivers or discounts offered.",
+        "How do the fees differ for different departments ?",
+        "Tell me about any financial assistance programs .",
+        "What are the fees for part-time or online courses?",
+        "Can you provide information about any student loan programs or partnerships with financial institutions?",
+        "How are the fees determined for international exchange programs?",
+        "What are the fees for extracurricular activities?",
+        "Can you provide information about any discounts or benefits available to alumni for further education?",
+        "How do the fees compare to other colleges ?"
+      ],
+
+      "responses": [
+        "Tuition fees vary depending on the course and program. For detailed information, please refer to our official website or contact our admissions office.",
+        "The fees for each course can be found on our website. It's important to note that fees are subject to change and may vary for different programs.", 
+        "To get accurate information about the fees, it is recommended to check the college website or contact our admissions department."]
+    },
+    
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Does the college offer any scholarships ?",
+        "What types of scholarships ?",
+        "Are there any merit-based scholarships offered ?",
+        "Are there any need-based scholarships available ?",
+        "Can you tell me about the eligibility criteria ?",
+        "Are there any specific deadlines for scholarship applications?",
+        "Can you provide information about the scholarship amounts and durations?",
+        "Are there any specific academic or extracurricular requirements for scholarships?",
+        "Can you provide information about scholarships offered by the college?",
+        "Are there any scholarships available for graduate or ?",
+        "Can you provide information about any external or sponsored scholarships the college participates in?",
+        "Are there any specific scholarships for students pursuing a particular field of study?",
+        "Are there any scholarships available for students participating in sports or other extracurricular activities?",
+        "Can you provide information about any scholarships for research or ?",
+        "Are there any scholarships for students with exceptional artistic or creative abilities?",
+        "Are there any scholarships available for international exchange programs or study abroad opportunities?",
+        "Can you provide information about any scholarship workshops or resources available ?",
+        "Are there any scholarships specifically for first-generation ?"
+        ],
+      "responses": [
+        "Various alumni chapters and associations offer scholarships ranging from 5 to 40 students, with amounts ranging from 12,000 to 25,000 Rupees per year.Additionally, there are individual scholarships sponsored by alumni and departments, providing monthly amounts ranging from 1,000 to 2,000 Rupees."
+      ]
+    },
+
+    {
+      "tag": "placements",
+      "patterns": [
+        "How does your college support student placements?",
+        "Can you provide information about the companies that visit  for placements?",
+        "What is the average salary package offered to students during campus placements?",
+        "Tell me about the placement statistics for the past few years.",
+        "How do you prepare students for interviews and job placements?",
+        "Can you give me details about the placement training programs offered at your institution?",
+        "What is the placement process at your college?",
+        "Tell me about the placement cell or career services department at your institution.",
+        "What industries or sectors do your students typically get placed in?",
+        "Tell me about any notable companies or organizations that have recruited students from your college.",
+        "Can you give me details about any international job placement opportunities?",
+        "What resources or platforms are available for students to explore job openings?",
+        "Tell me about any placements organized by your college.",
+        "What is the track record of your college in terms of job placements?",
+        "Tell me about any partnerships or collaborations with companies for industry-specific placements.",
+        "How does your college assist students in building their resumes and developing their professional skills?",
+        "Can you give me details about the placement tie-ups with companies in different sectors?",
+        "What percentage of students from your college secure job offers before graduation?",
+        "Tell me about any alumni success stories in terms of career progression and job placements.",
+        "How do you facilitate industry visits and guest lectures to enhance students' industry exposure?",
+        "Can you give me details about the placement support for students from different academic disciplines?",
+        "What measures does your college take to stay updated with the evolving job market trends?"
+      ],
+      "responses": [
+        "We have a dedicated placement cell that facilitates career development and arranges campus placements. Our students have been placed in top companies in various industries.", 
+        "Our college has a strong track record of placements. We have tie-ups with leading companies, and our students have secured placements in reputable organizations.", 
+        "We prioritize the employability of our students and provide comprehensive placement assistance. Our alumni have been successfully placed in reputed companies across different sectors."]
+    },
+    
+    
+    {
+      "tag": "events",
+      "patterns": [
+        "tell me about the events",
+        "Which events are scheduled to take place ?",
+        "Can you provide me with a list of upcoming events  ",
+        "What are some of the events held in the past year?",
+        "Are there any cultural events planned in the near future?",
+        "Could you give me some information about the sports events held ",
+        "Are there any academic events or conferences happening in the soon?",
+        "What kind of social events are for students?",
+        "Are there any charity events or community service activities held ",
+        "Which events in the are open to the public or external participants?",
+        "Are there any awards ceremonies or recognition events ",
+        "Are there any entrepreneurship or innovation-related events happening  ",
+        "What are some of the arts and music events held ",
+        "Can you tell me about any collaborative events or partnerships between the and external organizations?"
+      ],
+
+      "responses": [
+        "We organize a wide range of events including cultural festivals, technical symposiums, sports competitions, guest lectures, and workshops to provide holistic development opportunities for our students.", 
+        "Our college hosts an array of events throughout the year, including annual cultural fests, technical exhibitions, inter-college sports competitions, and seminars by industry experts.", 
+        "We believe in fostering a vibrant campus life, and our events calendar is packed with cultural festivals, academic conferences, sports tournaments, and more."
+      ]
+    },
+
+
+    {
+      "tag": "library",
+      "patterns": [
+        "tell me about the library",
+        "How extensive is the collection of books in your college library?",
+        "Can you provide information about the digital resources available in the library?",
+        "What are the library's opening hours and accessibility?",
+        "Tell me about the study spaces and seating arrangements in the library.",
+        "How can students borrow books or materials from the library?",
+        "Can you give me details about any special collections or archives in the library?",
+        "What online databases or research tools are accessible to students?",
+        "Tell me about the library's interlibrary loan services.",
+        "How are library fines or late fees managed?",
+        "Can you provide information about any quiet zones or study rooms in the library?",
+        "What assistance or guidance do librarians provide to students?",
+        "Tell me about the library's photocopying and printing facilities.",
+        "How often is the library's collection updated with new books and resources?",
+        "Can you give me details about any online catalog or search system to find books?",
+        "What accessibility features are available for students with disabilities in the library?",
+        "Tell me about the library's subscription to academic journals and magazines.",
+        "How can students access e-books or electronic resources in the library?",
+        "Can you provide information about any library orientation programs for new students?",
+        "What is the policy for reserving or renewing borrowed books?",
+        "Tell me about any collaborative spaces or group study rooms in the library.",
+        "How are rare or valuable books protected in the library?",
+        "Can you give me details about any workshops or training sessions conducted by the library?",
+        "What library resources are available for research or thesis writing?",
+        "Tell me about any library initiatives to promote digital literacy and information literacy skills.",
+        "How can students access past exam papers or study guides in the library?",
+        "Can you provide information about any library partnerships or consortiums for resource sharing?",
+        "What is the library's policy regarding food and beverages?",
+        "Tell me about any multimedia or audiovisual resources available in the library.",
+        "How are library resources organized and classified?",
+        "Can you give me details about any online reference services or chat support for students?",
+        "What measures are taken to ensure a quiet and conducive environment for studying in the library?"
+      ],
+      "responses": [
+        "Our college library offers a vast collection of books, journals, e-books, and digital resources across various disciplines. Students can borrow books, access e-resources, and utilize study spaces within the library.", 
+        "Our library is well-stocked with books, reference materials, and online databases. It provides a quiet and conducive environment for studying and research. Students can also request inter-library loans.", 
+        "The college library is a treasure trove of knowledge with a wide range of books, journals, and online resources. Students can explore the collection, study in the reading areas, and avail themselves of research assistance."
+        
+      ]
+    },
+    {
+      "tag": "last rank",
+       "patterns": [
+        "What was the last rank to get in ?",
+        "What was the cut-off rank ?",
+        "Can you provide the rank of the last ?",
+        "What was the minimum rank required ?",
+        "What was the highest rank among  students ?",
+        "Can you tell me the rank range ?",
+        "What was the closing rank ?",
+        "Can you provide information about the keam cut-off rank?",
+        "What was the keam cut-off ?",
+        "What was the minimum keam rank required?",
+        "Can you tell me the rank range for keam ?",
+        "What was the closing keam rank in the previous year?",
+        "What rank should I aim for in ?"
+        ],
+
+      "responses": [
+          "Artificial Intelligence and Machine Learning:7413 Computer Science & Engineering:2039 Computer Science & Engineering(Data Science):3579 Civil Engineering:15545 Electrical & Electronics Engineering:11754 Electronics & Communication Engineering:5283 Mechanical Engineering:25190"
+  
+      ] 
+    },
+
+   {
+            "tag": "principal",
+            "patterns": [
+              "Who is the current principal of the college?",
+              "Can you tell me the name of the principal?",
+              "Who is leading the college as the principal?",
+              "Who holds the position of principal in the college?",
+              "What is the name of the principal?",
+              "Can you provide information about the college's principal?",
+              "Who is in charge as the principal of the college?",
+              "What is the principal's name?",
+              "Can you tell me the principal's name?",
+              "Who is currently serving as the principal of the college?"
+              ],
+
+            "responses": [
+                "Dr. Bos Mathew Jos"
+            ]
+          },
+        {
+            "tag": "location",
+            "patterns": [
+              "What is the location of the college?",
+              "Can you tell me where the college is situated?",
+              "In which city is the college located?",
+              "Where can I find the college?",
+              "What is the address of the college?",
+              "Can you provide me with the college's mailing address?",
+              "Where exactly is the college situated?",
+              "Which part of the city is the college located in?",
+              "Can you give me directions to the college?",
+              "What is the physical address of the college?",
+              "Where is the college campus situated?",
+              "Which locality is the college located in?",
+              "Can you tell me the street address of the college?",
+              "In which area is the college situated?",
+              "What is the precise location of the college?",
+              "Where is the college situated within the city?",
+              "Can you provide the complete address of the college?",
+              "Which district is the college located in?",
+              "What is the specific address of the college?",
+              "Where exactly can I find the college?",
+              "Which town is the college situated in?",
+              "What is the postal address of the college?",
+              "Can you tell me the exact location of the college?",
+              "Which neighborhood is the college located in?",
+              "What is the full address of the college?",
+              "Where is the college positioned geographically?",
+              "Which street is the college located on?",
+              "Can you provide the address details of the college?",
+              "In which part of town is the college situated?",
+              "What is the official address of the college?",
+              "Where is the college campus precisely located?"
+              ],
+            "responses": [
+                "MarAthanasius College,Kothamangalam,Kerala-686666"
+            ] 
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+              "What are the contact details for the college?",
+              "How can I get in touch with the college?",
+              "Can you provide me with the contact information for the college?",
+              "What is the phone number to contact the college?",
+              "How can I contact the college administration?",
+              "Is there a specific phone number to reach the college?",
+              "What is the email address to contact the college?",
+              "Can you provide me with the college's email contact?",
+              "How do I reach out to the college for inquiries?",
+              "What is the best way to contact the college?",
+              "Is there a helpline number to contact the college?",
+              "How can I communicate with the college staff?",
+              "Can you give me the contact information for the college's admissions office?",
+              "What is the official contact number for the college?",
+              "How can I get in touch with the college's academic department?",
+              "Is there a specific email address to contact the college's faculty?",
+              "What is the main contact point for the college?",
+              "How do I contact the college's student services department?",
+              "Can you provide me with the contact details for the college's administration office?",
+              "What is the general inquiry contact for the college?",
+              "How can I reach the college's registrar office?",
+              "Is there a dedicated contact number for the college's financial aid office?",
+              "How can I get in touch with the college's IT support team?",
+              "What is the contact information for the college's career services office?",
+              "Can you provide me with the email address to contact the college's admissions department?",
+              "How do I contact the college's library services?",
+              "What is the phone number for the college's counseling center?",
+              "How can I reach the college's alumni association?",
+              "Is there a specific email address to contact the college's international student office?",
+              "What is the best way to get in touch with the college's public relations department?",
+              "Can you provide me with the contact information for the college's sports department?",
+              "How do I contact the college's housing office?"
+              ],
+            "responses": [
+                "Phones: +91 485 2822363 ,+91 485 2822931 , 8281824263 email id: office@mace.ac.in"
+            ] 
+        },
+        {
+          "tag":"canteen",
+          "patterns": [
+            "tell me about the canteen",
+            "What are the operating hours of the canteen?",
+            "Can you provide me with information about the menu options available in the canteen?",
+            "Is the canteen open during weekends?",
+            "What are the timings of the  canteen?",
+            "What is the variety of food available in the canteen?",
+            "Is the canteen open for breakfast, lunch, and dinner?",
+            "Does the canteen offer snacks and beverages?",
+            "Are there any discounts or meal plans available in the canteen?",
+            "Can you provide me with the contact information for the canteen?",
+            "Are outside food or drinks allowed in the canteen?",
+            "Is the canteen self-service or staff-served?",
+            "What are the seating arrangements like in the canteen?",
+            "Does the canteen provide catering services for events or functions?",
+            "Are there any hygiene or cleanliness standards maintained in the canteen?",
+            "What are the popular food stalls or vendors in the canteen?",
+            "Is there a feedback mechanism or suggestion box in the canteen?",
+            "Can you tell me if the canteen offers any special promotions or discounts?",
+            "Are there any specific timings for breakfast, lunch, and dinner in the canteen?",
+            "Does the canteen provide options for packed meals or takeaways?",
+            "Are there any specific rules or guidelines to follow while using the canteen?",
+            "Is the canteen managed by the college administration or outsourced to a vendor?",
+            "Are there any seating arrangements for students to relax or socialize in the canteen?",
+            "Can you provide information about the quality and taste of food in the canteen?",
+            "What are the options available for students with specific dietary requirements in the canteen?",
+            "Does the canteen offer any special cuisines or themed days?"
+            ],
+            "responses":[
+              "The college canteen is a popular spot on campus for students to grab a quick bite or have a meal. It offers a variety of menu options to cater to different tastes and preferences. The canteen is open during college hours, and you can find a range of food items, including snacks, beverages, and main courses"
+            ]
+        },
+        {
+          "tag" : "hostel",
+          "patterns":  [
+            "Does the college provide hostel facilities?",
+            "What are the accommodation options available in the hostel?",
+            "Can you provide information about the hostel?",
+            "Are there separate hostels for male and female students?",
+            "What is the capacity of the hostel?",
+            "Can you provide information about the hostel warden or staff members?",
+            "What are the check-in and check-out procedures for the hostel?"
+            ],
+            "responses":[
+              "College provides hostel facilities separately for both boys and girls. A senior member of the staff is appointed as the warden who looks after the day-to-day affairs and general discipline of the hostel. The total intake of gent's hostel is 570 and ladies' hostel is 510."
+            ]
+
+        }
+   
+  ]
+}
